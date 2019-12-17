@@ -34,7 +34,7 @@ for each provides the function for the array element where as map makes a new ar
 
 2. What is the difference between a function and a method?
 
-a method is a function with a function inside of it where as a function just has keys and values.
+a method is a property that is = to a functionw here as a function just has keys and values.
 
 3. What is closure?
 
@@ -52,7 +52,7 @@ D. Explicit Binding is when we use call or apply method.
 
 5. Why do we need super() in an extended class?
 
-it cleans the code up and pulls the attributes together, i believe.
+allows us to bind 'this' inside a class.
 
 ## Project Set up
 

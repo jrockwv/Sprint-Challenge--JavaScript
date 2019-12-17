@@ -129,11 +129,9 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-for ( i = 0; i < zooAnimals.length; i++) {
-  zooAnimals[i].animal_name;
-  zooAnimals[i].scientific_name;
-  displayNames.push(`Name: ${zooAnimals[i].animal_name}, Scientific: ${zooAnimals[i].scientific_name}`);
-}
+zooAnimals.forEach(function(zooAnimals) {
+  return  displayNames.push(`Name: ${zooAnimals.animal_name}, Scientific: ${zooAnimals.scientific_name}`);
+});
 console.log(displayNames);
 
 
@@ -170,7 +168,7 @@ zooAnimals.filter((zooAnimals) => {
   }
 })
    
-console.log(lowPopulationAnimals);
+console.log('here', lowPopulationAnimals);
 
 /* Request 4: .reduce() 
 
